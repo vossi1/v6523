@@ -27,9 +27,6 @@ SOFTWARE.
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
 cbm 720
 
-![V6523 620-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo.jpg)
-cbm 620
-
 Note: The very first V6523 on the photo misses the pin1 side notch.
 
 **Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and fingers ;)
