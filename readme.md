@@ -24,12 +24,13 @@ SOFTWARE.
 
 **[Schematic](https://github.com/vossi1/v6523/blob/master/v6523_v1.png)**
 
-![V6523 photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo.jpg)
+![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
+
+![V6523 620-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo.jpg)
 
 Note: The very first V6523 on the photo misses the pin1 side notch.
 
-:x: **BEWARE: There are some XC9572XL FAKES out there**
-
 **Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and fingers ;)
-
 **NOT tested in:** 1551, CDTV, A570, C64-Magic Voice, C64-IEEE488, ???
+
+:x: **BEWARE: There are some XC9572XL FAKES out there**
