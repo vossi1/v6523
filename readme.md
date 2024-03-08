@@ -32,4 +32,4 @@ Note: The very first V6523 on the photo misses the pin1 side notch.
 
 **Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and fingers ;)
 
-**NOT tested in:** 1551, CDTV, A570, Magic Voice, ???
+**NOT tested in:** 1551, CDTV, A570, C64-Magic Voice, C64-IEEE488, ???
