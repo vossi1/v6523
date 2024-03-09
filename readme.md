@@ -30,7 +30,7 @@ cbm 720
 Note: The very first V6523 on the photo misses the pin1 side notch.
 
 **Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and fingers ;)
-**Does not work in C64-Magic Voice, C64-IEEE488**
-**NOT tested in:** 1551, CDTV, A570, ???
+**Does not work in C64-Magic Voice, C64-IEEE488, CDTV (A570)**
+**NOT tested in:** 1551
 
 :x: **BEWARE: There are some XC9572XL FAKES out there**
