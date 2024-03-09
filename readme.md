@@ -24,6 +24,8 @@ SOFTWARE.
 
 **[Schematic](https://github.com/vossi1/v6523/blob/master/v6523_v1.png)**
 
+**[Parts](https://github.com/vossi1/v6523/blob/master/parts.txt)**
+
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
 cbm 720
 
