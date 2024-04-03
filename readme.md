@@ -1,6 +1,6 @@
 # V6523 - Replacement for a 6523 or 6525 without IRQ Controller (CBM2 keyboard TPI)  
 
-**Copyright (c) 2024 Vossi - v.1**
+**Copyright (c) 2024 Vossi - v.1 / v.2 (IEEE64 option)**
 
 **www.mos6509.com**
 
@@ -37,9 +37,10 @@ Note: The very first V6523 on the photo misses the pin1 side notch.
 
 :x: **BEWARE: There are some XC9572XL FAKES out there**
 
-**UPDATE: Special hdl-code for the C64 IEEE488 interface:**
+**UPDATE: Special hdl-code for the C64 IEEE488 interface + v.2 with PHI2 solder point:**
 
-You have to solder a very small wire from pin 39 of the CPLD to pin 10 of the 74LS08 (PHI2)!
+You have to solder a wire from pin 39 of the CPLD (v.1) to pin 10 of the 74LS08 (PHI2).
+With the v.2 board you now have a solderpoint for Pin39 / PHI2!
 
 REASON: Commodore didn't combined CS with PHI2 like in the CBM2 machines.
 According to the datasheet for the 6525, they should have done that.
