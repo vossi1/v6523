@@ -45,6 +45,5 @@ REASON: Commodore didn't combined CS with PHI2 like in the CBM2 machines.
 According to the datasheet for the 6525, they should have done that.
 I don't know why it still works with the 6525 in the IEEE interface?
 
-![V6523 ieee-photo1](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo1.jpg)
-![V6523 ieee-photo2](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo2.jpg)
+![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo.jpg)
 
