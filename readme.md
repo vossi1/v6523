@@ -36,3 +36,15 @@ Note: The very first V6523 on the photo misses the pin1 side notch.
 **NOT tested in:** 1551
 
 :x: **BEWARE: There are some XC9572XL FAKES out there**
+
+**UPDATE: Special hdl-code for the C64 IEEE488 interface:**
+
+You have to solder a very small wire from pin 39 of the CPLD to pin 10 of the 74LS08 (PHI2)!
+
+REASON: Commodore didn't combined CS with PHI2 like in the CBM2 machines.
+According to the datasheet for the 6525, they should have done that.
+I don't know why it still works with the 6525 in the IEEE interface?
+
+![V6523 ieee-photo1](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo1.jpg)
+![V6523 ieee-photo2](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo2.jpg)
+
