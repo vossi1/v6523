@@ -29,7 +29,7 @@ SOFTWARE.
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
 cbm 720
 
-:X: **Gerber v.2 have only minimal changes, but they are currently untested. I will remove this when I have the first pcb here and it's tested successfully!**
+:x: **Gerber v.2 have only minimal changes, but they are currently untested. I will remove this note when I have the first pcb here and it's tested successfully!**
 
 Note: The very first V6523 on the photo misses the pin1 side notch.
 
