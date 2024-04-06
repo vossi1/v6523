@@ -29,7 +29,7 @@ SOFTWARE.
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
 cbm 720
 
-**Gerber v.2 have only minimal changes, but they are currently untested. I will remove this when I have the first pcb here and it's tested!**
+:X: **Gerber v.2 have only minimal changes, but they are currently untested. I will remove this when I have the first pcb here and it's tested successfully!**
 
 Note: The very first V6523 on the photo misses the pin1 side notch.
 
@@ -37,7 +37,7 @@ Note: The very first V6523 on the photo misses the pin1 side notch.
 **Does not work in C64-Magic Voice, C64-IEEE488, CDTV (A570)**
 **NOT tested in:** 1551
 
-:x: **BEWARE: I got good CPLD's from China but There are some XC9572XL FAKES out there**
+:x: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
 
 **UPDATE: Special hdl-code for the C64 IEEE488 interface + v.2 with PHI2 solder point:**
 
