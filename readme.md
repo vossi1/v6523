@@ -1,6 +1,6 @@
 # V6523 - Replacement for a 6523 or 6525 without IRQ Controller (CBM2 keyboard TPI)  
 
-**Copyright (c) 2024 Vossi - v.1 / v.2 (IEEE64 option)**
+**Copyright (c) 2024 Vossi - v.1 / v.2 (C64 IEEE option)**
 
 **www.mos6509.com**
 
@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-**[Schematic](https://github.com/vossi1/v6523/blob/master/v6523_v1.png)**
+**[Schematic](https://github.com/vossi1/v6523/blob/master/v6523_v2.png)**
 
 **[Parts](https://github.com/vossi1/v6523/blob/master/parts.txt)**
 
