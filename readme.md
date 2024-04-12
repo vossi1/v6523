@@ -49,7 +49,7 @@ According to the datasheet for the 6525, they should have done that.
 I don't know why it still works with the 6525 in the IEEE interface?
 
 I added this logic to the v.2 version - or you use the v.1 hdl and a 7400:
-![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_logic.jpg)
+![V6523 ieee-logic](https://github.com/vossi1/v6523/blob/master/v6523_ieee-logic.jpg)
 
 ![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo.jpg)
 
