@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-v.2 now with C64 IEEE488 Interface support!
+:white_check_mark: v.2 now with C64 IEEE488 Interface support!
 
 **[Schematic](https://github.com/vossi1/v6523/blob/master/v6523_v2.png)**
 
@@ -31,9 +31,9 @@ v.2 now with C64 IEEE488 Interface support!
 :x: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
 
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
-cbm 720 (The very first V6523 on the photo misses the pin1 side notch)
+cbm 720 (the very first V6523 on the photo misses the pin1 side notch)
 
-**Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and fingers ;)
+**Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and my fingers :wink:
 
 **Does not work in C64-Magic Voice, CDTV (A570)**
 
@@ -43,7 +43,7 @@ You have to solder a wire to pin 10 of the 74LS08 (PHI2):
 
 ![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo.jpg)
 
-I added this logic to the v.2 version:
+I added this logic for the IEEE support to the v.2 version:
 
 ![V6523 ieee-logic](https://github.com/vossi1/v6523/blob/master/v6523_ieee-logic.jpg)
 
