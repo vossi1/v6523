@@ -14,6 +14,7 @@ NET "data<4>"  LOC = "P4"  ;
 NET "data<5>"  LOC = "P5"  ; 
 NET "data<6>"  LOC = "P6"  ; 
 NET "data<7>"  LOC = "P7"  ; 
+NET "phi2"  LOC = "P39"  ;
 NET "porta<0>"  LOC = "P8"  ; 
 NET "porta<1>"  LOC = "P9"  ; 
 NET "porta<2>"  LOC = "P10"  ; 

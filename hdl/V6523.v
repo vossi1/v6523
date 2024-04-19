@@ -23,8 +23,8 @@
 
    V6523.v: Implements mos6523 with 3x 8bit I/O Port
 	
-	v.1 version:
-	- initial
+	v.2 version:
+	- cs combiuned with phi2 for the C64 IEEE488 interface
 */
 
 module V6523(	inout [7:0]data,
@@ -36,7 +36,8 @@ module V6523(	inout [7:0]data,
 				input _cs,
 				output cs,
 				input cs_oh,
-				input _reset
+				input _reset,
+				input phi2
             	);
 
 reg [7:0]data_out;
@@ -53,20 +54,22 @@ wire [7:0]portc_data;
 reg [7:0]portc_ddr_reg;
 reg [7:0]portc_data_reg;
 wire delay1, delay2, delay3, delay4;	// output hold delay wires
+wire _csphi2;
 
 assign data = data_out;			// data read output to 6502
 assign porta = 	porta_out;		// output to io-port
 assign portb = 	portb_out;		// output to io-port
 assign portc = 	portc_out;		// output to io-port
+assign _csphi2 = _cs | !phi2;	// cs only with phi2
 
 // CS delay for databus output hold time ( about 20ns - each inverter needs 5ns )
-(*S = "TRUE"*) inverter inv1(!_cs, delay1);		//(prefix *S prevents removing in optimization)
+(*S = "TRUE"*) inverter inv1(!_csphi2, delay1);		//(prefix *S prevents removing in optimization)
 (*S = "TRUE"*) inverter inv2(delay1, delay2);
 (*S = "TRUE"*) inverter inv3(delay2, delay3);
 (*S = "TRUE"*) inverter inv4(delay3, delay4);
-assign cs = !_cs | delay4;		// cs with about 30ns extended incl. in/out (output hold time mos 6523 datasheet)
+assign cs = !_csphi2 | delay4;		// cs with about 30ns extended incl. in/out (output hold time mos 6523 datasheet)
 
-always @(posedge _cs, negedge _reset)
+always @(posedge _csphi2, negedge _reset)
 begin
 	if(!_reset) begin 					// reset all register
 		porta_data_reg <= 0;

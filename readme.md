@@ -1,6 +1,6 @@
 # V6523 - Replacement for a 6523 or 6525 without IRQ Controller (CBM2 keyboard TPI)  
 
-**Copyright (c) 2024 Vossi - v.1 / v.2 (C64 IEEE option)**
+**Copyright (c) 2024 Vossi - v.2 (C64 IEEE option)**
 
 **www.mos6509.com**
 
@@ -22,34 +22,29 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+v.2 now with C64 IEEE488 Interface support!
+
 **[Schematic](https://github.com/vossi1/v6523/blob/master/v6523_v2.png)**
 
 **[Parts](https://github.com/vossi1/v6523/blob/master/parts.txt)**
 
+:x: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
+
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
 cbm 720
-
-:x: **Gerber v.2 have only minimal changes, but they are currently untested. I will remove this note when I have the first pcb here and it's tested successfully!**
 
 Note: The very first V6523 on the photo misses the pin1 side notch.
 
 **Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and fingers ;)
-**Does not work in C64-Magic Voice, C64-IEEE488, CDTV (A570)**
-**NOT tested in:** 1551
+**Does not work in C64-Magic Voice, CDTV (A570)**
+**NOT tested in: 1551**
 
-:x: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
+I added this logic to the v.2 version:
+![V6523 ieee-logic](https://github.com/vossi1/v6523/blob/master/v6523_ieee-logic.jpg)
 
-**UPDATE: Special hdl-code for the C64 IEEE488 interface + v.2 with PHI2 solder point:**
-
-You have to solder a wire from pin 39 of the CPLD (v.1) to pin 10 of the 74LS08 (PHI2).
-With the v.2 board you now have a solderpoint for Pin39 / PHI2!
+You have to solder a wire to pin 10 of the 74LS08 (PHI2):
+![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo.jpg)
 
 REASON: Commodore didn't combined CS with PHI2 like in the CBM2 machines.
 According to the datasheet for the 6525, they should have done that.
 I don't know why it still works with the 6525 in the IEEE interface?
-
-I added this logic to the v.2 version - or you use the v.1 hdl and a 7400:
-![V6523 ieee-logic](https://github.com/vossi1/v6523/blob/master/v6523_ieee-logic.jpg)
-
-![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo.jpg)
-
