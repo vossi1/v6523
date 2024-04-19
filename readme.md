@@ -41,11 +41,9 @@ cbm 720 (the very first V6523 on the photo misses the pin1 side notch)
 
 :question: **NOT tested in: 1551**
 
-You have to solder a wire to pin 10 of the 74LS08 (PHI2):
+You have to solder a wire to pin 10 of the 74LS08 (PHI2): (sadly I forgot the "specify a location" option :wink: )
 
 ![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo.jpg)
-
-(sadly I forgot the "specify a location" option :wink: )
 
 I added this logic for the IEEE support to the v.2 version:
 
