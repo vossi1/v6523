@@ -24,11 +24,13 @@ SOFTWARE.
 
 :thumbsup: v.2 now with C64 IEEE488 Interface support!
 
+:pushpin: At JLC you have to select: Remove Order Number = "Specify a location"
+
 **[Schematic](https://github.com/vossi1/v6523/blob/master/v6523_v2.png)**
 
 **[Parts](https://github.com/vossi1/v6523/blob/master/parts.txt)**
 
-:heavy_exclamation_mark: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
+:exclamation: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
 
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
 cbm 720 (the very first V6523 on the photo misses the pin1 side notch)
