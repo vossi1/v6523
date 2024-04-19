@@ -31,19 +31,21 @@ v.2 now with C64 IEEE488 Interface support!
 :x: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
 
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
-cbm 720
-
-Note: The very first V6523 on the photo misses the pin1 side notch.
+cbm 720 (The very first V6523 on the photo misses the pin1 side notch)
 
 **Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and fingers ;)
+
 **Does not work in C64-Magic Voice, CDTV (A570)**
+
 **NOT tested in: 1551**
 
-I added this logic to the v.2 version:
-![V6523 ieee-logic](https://github.com/vossi1/v6523/blob/master/v6523_ieee-logic.jpg)
-
 You have to solder a wire to pin 10 of the 74LS08 (PHI2):
+
 ![V6523 ieee-photo](https://github.com/vossi1/v6523/blob/master/v6523_ieee_photo.jpg)
+
+I added this logic to the v.2 version:
+
+![V6523 ieee-logic](https://github.com/vossi1/v6523/blob/master/v6523_ieee-logic.jpg)
 
 REASON: Commodore didn't combined CS with PHI2 like in the CBM2 machines.
 According to the datasheet for the 6525, they should have done that.
