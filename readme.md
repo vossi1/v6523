@@ -1,6 +1,6 @@
 # V6523 - Replacement for a 6523 or 6525 without IRQ Controller (CBM2 keyboard TPI)  
 
-**Copyright (c) 2024 Vossi - v.2 (C64 IEEE option)**
+**Copyright (c) 2024 Vossi - v.1 / v.2 (C64 IEEE option)**
 
 **www.mos6509.com**
 
@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-:thumbsup: v.2 now with C64 IEEE488 Interface support!
+:thumbsup: v.2 now with C64 IEEE488 Interface support (use special IEEE hdl-code)!
 
 :pushpin: At JLC you have to select: Remove Order Number = "Specify a location"
 
