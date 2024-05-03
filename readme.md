@@ -37,9 +37,7 @@ cbm 720 (the very first V6523 on the photo misses the pin1 side notch)
 
 :white_check_mark: **Tested successful in cbm620, 720 and P500 with:** Diagnostic-ROM and my fingers :wink:
 
-:x: **Does not work in C64-Magic Voice, CDTV (A570)**
-
-:question: **NOT tested in: 1551**
+:x: **Does not work in 1551, C64-Magic Voice, CDTV (A570)**
 
 You have to solder a wire to pin 10 of the 74LS08 (PHI2): (sadly I forgot the "specify a location" option :wink: )
 
