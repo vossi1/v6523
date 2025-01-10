@@ -16,6 +16,8 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
 **[Parts](https://github.com/vossi1/v6523/blob/master/parts.txt)**
 
+**CPLD-Firmware:** The .JED file can be uploaded with a JTAG-SMT2 Xilinx programmer (China) and [xc3sprog](https://xc3sprog.sourceforge.net/)
+
 :exclamation: **BEWARE: I got good CPLD's from China but there are some XC9572XL FAKES out there**
 
 ![V6523 720-photo](https://github.com/vossi1/v6523/blob/master/v6523_v1_photo2.jpg)
